@@ -31,23 +31,28 @@ body{
 
 input[type=text] {
     height: 20px;
-    padding: 4px;
+    padding: 5px;
 }
 
 input[type=email] {
     height: 20px;
-    padding: 4px;
+    padding: 5px;
 }
 
 input[type=number] {
     width: 40%;
     height: 20px;
-    padding: 4px;
+    padding: 5px;
 }
 
 #dropdown {
     padding: 8px 16px;
     width: 40%;
+}
+
+textarea {
+    width: 80%;
+    padding: 15px;
 }
 
 button {
