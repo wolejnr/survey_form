@@ -1,5 +1,73 @@
-html, body{
-    text-align: center;
-    background-color: aqua;
+body{
+    font: 1rem 'Fira Sans', san-serif;
+    background-color: rgba(127, 255, 212, 0.788);
+    padding: 30px 30px 20px 30px;
 }
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+.main {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.biodata {
+    display: block;
+}
+
+.label {
+    float: left;
+    width: 60%;
+}
+
+.info {
+    float: left;
+    width: 40%;
+}
+
+input[type=text] {
+    height: 20px;
+    padding: 4px;
+}
+
+input[type=email] {
+    height: 20px;
+    padding: 4px;
+}
+
+input[type=number] {
+    width: 40%;
+    height: 20px;
+    padding: 4px;
+}
+
+#dropdown {
+    padding: 8px 16px;
+    width: 40%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .label, .info {
+        width: 100%;
+    }
+}
+
+
+
 
